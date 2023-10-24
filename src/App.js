@@ -5,7 +5,7 @@ import Photo from "./component/photo";
 import Price from "./component/price";
 import RoomList from "./component/room-list";
 import Description from "./component/description";
-import Property_details from "./component/property_details";
+import PropertyDetails from "./component/property_details";
 
 
 
@@ -179,7 +179,7 @@ function App() {
 		/>
 		<RoomList list={data.roomTypes} />
 		<Description title="Опис" children={data.description} />
-		<Property_details
+		<PropertyDetails
 			guests={data.property_details.guests}
 			bedrooms={data.property_details.bedrooms}
 			beds={data.property_details.beds}
