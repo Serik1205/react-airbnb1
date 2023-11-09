@@ -2,8 +2,8 @@ import Page from "./component/page";
 import Header from "./component/header";
 import Title from "./component/title";
 import Photo from "./component/photo";
-import Price from "./component/price";
-import RoomList from "./component/room-list";
+import Price from "./component/price/price"
+import RoomList from "./component/room-list"
 import Description from "./component/description";
 import PropertyDetails from "./component/property_details";
 
@@ -186,9 +186,6 @@ function App() {
 			baths={data.property_details.baths}
 		/>
 		<Description title="Про сусідів" children={data.neighborhood_info} />
-
-
-
 
 	</Page>;
 }

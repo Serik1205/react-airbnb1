@@ -1,7 +1,7 @@
-import Box from "../box";
-import Heading from "../heading/heading";
+import Box from "./src/component/box/box";
+import Heading from "./src/component/heading/heading";
 import ListItem from "../list-item";
-import test from "../test.svg"
+import test from "./test.svg"
 import "./index.css";
 
 export default function PropertyDetails({ guests, bedrooms, beds, baths }) {
